@@ -3,7 +3,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
-app = Flask(_name_)
+app = Flask(__name__)
 CORS(app)  # Allow cross-origin requests (needed for Streamlit frontend)
 
 # Simulated "Database"
